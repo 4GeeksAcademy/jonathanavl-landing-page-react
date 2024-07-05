@@ -4,7 +4,7 @@ import React from "react";
 //create your first component
 export const NavBar = () => {
 	return (
-		<nav className="navbar bg-dark border-bottom border-body">
+		<nav className="navbar bg-dark border-bottom border-body" style={{ width: '100%' }}>
       <div className="container-fluid ">
         <a className="navbar-brand text-light" href="#">Navbar</a>
         <button

@@ -1,6 +1,7 @@
 import React from "react";
 export const Jumbotron = () => {
 	return (
+    <div className="container d-flex justify-content-center align-items-center">
         <div className="jumbotron jumbotron-fluid">
       <h1 className="display-4">Hello, world!</h1>
       <p className="lead">
@@ -15,6 +16,7 @@ export const Jumbotron = () => {
           Learn more
         </a>
       </p>
+    </div>
     </div>
   );
 };

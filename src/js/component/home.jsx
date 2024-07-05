@@ -12,22 +12,22 @@ const Home = () => {
 	return (
 		<div>
 			<NavBar />
-			<div class="container">
+			<div className="container">
 				<br />
 				<Jumbotron />
 				<br />
-				<div class="d-flex justify-content-around col-12">
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-3 mb-3">
+				<div >
+					<div className="row">
+						<div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-3">
 						<Card />
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 mb-3">
+						<div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-3">
 						<Card />
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 mb-3">
+						<div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-3">
 						<Card />
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 mb-3">
+						<div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-3">
 						<Card />
 						</div>
 					</div>
